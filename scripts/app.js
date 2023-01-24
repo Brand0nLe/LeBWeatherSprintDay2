@@ -1,8 +1,8 @@
 //API KEY
 const api_key = "ad348df81f85b7c707ce9dd1e10b1d88";
 //BASE URL
-const base_url = "http://api.openweathermap.org/data/2.5/weather";
-const forecast_base_url = "http://api.openweathermap.org/data/2.5/forecast";
+const base_url = "https://api.openweathermap.org/data/2.5/weather";
+const forecast_base_url = "https://api.openweathermap.org/data/2.5/forecast";
 
 function getWeather() {
     //Get location from the input
