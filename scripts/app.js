@@ -1,3 +1,16 @@
+// import {prod, dev} from "./environment.js";
+
+
+// //Section to hide api key
+// let apiKey = '&appid=';
+
+// if(prod.isLive){
+//     apiKey += prod.apiKey;
+// }else{
+//     apiKey += dev.apiKey;
+// };
+
+
 //API KEY
 const api_key = "ad348df81f85b7c707ce9dd1e10b1d88";
 //BASE URL
@@ -48,5 +61,5 @@ function getWeather() {
             });
             //display the forecast data in the HTML side
             document.getElementById("forecast").innerHTML = forecastHtml;
-        });
+        });   
 }
