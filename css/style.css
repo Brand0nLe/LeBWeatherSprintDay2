@@ -1,3 +1,78 @@
-body{
-    background-color:steelblue;
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../assets/Poppins-Regular.ttf);
+}
+
+.poppinsWhite{
+    font-family: PoppinsRegular;
+    color: #FFFFFF;
+}
+
+
+html, body{
+    background: linear-gradient(to bottom, #56A7E3, #9ABCD7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+
+.enterLocationText {
+    /* color: #f5f5f5; */
+    background-color: #3c70a1;
+    display: flex;
+    text-align: center;
+    border-radius: 50px;
+    width: 300px;
+}
+
+.current-weather-title{
+    color: #FFFFFF;
+    font-family: PoppinsRegular;
+    font-size: 20px;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+.current-weather-bg{
+    background-color: #3c70a1;
+    height: 580px;
+    border-radius: 15px;
+}
+
+.five-day-forecast{
+    background-color: #3c70a1;
+    margin-left: 1%;
+    border-radius: 15px;
+    font-family: PoppinsRegular;
+    color: #FFFFFF;
+}
+.five-day-title{
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 75%;
+    margin-left: 10%;
+}
+
+.five-day-row-top{
+    border-top: 1px solid #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.five-day-row{
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.five-day-row-middle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.five-day-row-bottom{
+    margin-left: 20px;
+    margin-right: 20px;
 }

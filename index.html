@@ -1,7 +1,11 @@
 <!-- Brandon Le
 1-24-23
 Weather Sprint Day 2
-Weather app day 2 needs project structure layout, github, azure link, and fetches. -->
+Weather app day 2 needs project structure layout, github, azure link, and fetches. 
+
+1-25-23
+Weather Sprint Day 3
+Weather app attempting to have as much completed as possible or as close to 75% as possible -->
 
 
 <!doctype html>
@@ -18,24 +22,27 @@ Weather app day 2 needs project structure layout, github, azure link, and fetche
 
 
 
-    <h1 class="text-center">Weather App</h1>
     <br>
     <br>
+
+
 
     <div class="container-fluid">
-
-
 <!-- form for search goes here -->
 <div class="row">
-<div class="col-6 mx-auto">
+    <div class="col-1"></div>
+    <!-- logo is here -->
+    <div class="col-3">
+            <img src="./assets/Logo.png" alt="cloud with sun and rain drops">
+    </div>
+<div class="col-5 mx-auto d-flex justify-content-end">
     <form>
         <div class="form-group">
-            <label for="location-input">Location</label>
-            <input type="text" class="form-control" id="location-input">
+            <label for="location-input"></label>
+            <input type="text" class="form-control enterLocationText" id="location-input" placeholder="Enter Location">
         </div>
         <button type="button" class="btn btn-primary" onclick="getWeather()">Get Weather</button>
     </form>
-</div>
 </div>
 </div>
 
@@ -44,22 +51,31 @@ Weather app day 2 needs project structure layout, github, azure link, and fetche
 <br><br>
 
 <!-- start of section where we inject elements by ID tags -->
-<div class="container-fluid">
-        <div class="row mx-auto">
+        <div class="row">
             <!-- column where I want to put current weather -->
-            <div class="col-4">
-                <h2>Current Weather</h2>
-                <div id="temp" class="mt-3"></div>
-                <div id="humidity" class="mt-3"></div>
-                <div id="wind" class="mt-3"></div>
+            <div class="col-1"></div>
+            <div class="col-3 current-weather-bg">
+                <h2 class="current-weather-title">Current Weather</h2>
+                <div id="temp" class="mt-3 poppinsWhite text-center"></div>
+                <div id="humidity" class="mt-3 poppinsWhite text-center"></div>
+                <div id="wind" class="mt-3 poppinsWhite text-center"></div>
             </div>
             <!-- column where I want five day forecast -->
-            <div class="col-6"></div>
-            <h2>5 day forecast</h2>
-            <div id="forecast" class="mt-3"></div>
-        </div>
-    </div>
+            <div class="col-7 five-day-forecast"> 
+                <h2 class="five-day-title mt-4">5 DAY FORECAST</h2>
+                <div class="row five-day-row-top">Day 1</div>
+                <div class="row five-day-row">Day 2</div>
+                <div class="row five-day-row-middle">Day 3</div>
+                <div class="row five-day-row">Day 4</div>
+                <div class="row five-day-row-bottom">Day 5</div>
 
+                <div id="forecast" class="mt-3"></div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+
+
+    </div>
 
 
 
