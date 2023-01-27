@@ -2,17 +2,20 @@
 
 
 // //Section to hide api key
-// let apiKey = '&appid=';
+// const api_key = '&appid=';
 
 // if(prod.isLive){
-//     apiKey += prod.apiKey;
+//     api_key += prod.api_key;
 // }else{
-//     apiKey += dev.apiKey;
+//     api_key += dev.api_key;
 // };
 
 
 //API KEY
+//Before uploading the final product to github, I need to take out this api Key and have it empty, then add in the read me for users to input the api key here after they download the code.
 const api_key = "ad348df81f85b7c707ce9dd1e10b1d88";
+
+
 //BASE URL
 const base_url = "https://api.openweathermap.org/data/2.5/weather";
 const forecast_base_url = "https://api.openweathermap.org/data/2.5/forecast";
