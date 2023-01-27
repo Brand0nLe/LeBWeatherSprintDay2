@@ -13,7 +13,9 @@
 
 //API KEY
 //Before uploading the final product to github, I need to take out this api Key and have it empty, then add in the read me for users to input the api key here after they download the code.
-const api_key = "ad348df81f85b7c707ce9dd1e10b1d88";
+
+//YOUR API KEY GOES HERE IN THE "" :)
+const api_key = "";
 
 
 //BASE URL
@@ -40,7 +42,7 @@ function getWeather() {
             document.getElementById("temp").innerHTML = `Temperature: ${temperature}`;
             document.getElementById("humidity").innerHTML = `Humidity: ${humidity}`;
             document.getElementById("wind").innerHTML = `Wind Speed: ${windSpeed}`;
-        })
+        });
     //The line below (catch) is used to handle any errors that occur during the fetch() method.
     //Here the error is logged to the console using console.log(error).
     // .catch(error => console.log(error));
