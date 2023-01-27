@@ -3,12 +3,12 @@
 // let isLive = true;
 
 // let prod = {
-//     api_key: 'ad348df81f85b7c707ce9dd1e10b1d88',
+//     api_key: '',
 //     isLive: isLive
 // }
 
 // let dev = {
-//     api_key: 'ad348df81f85b7c707ce9dd1e10b1d88',
+//     api_key: '',
 //     isLive: !isLive
 // }
 
